@@ -77,9 +77,6 @@ footer{
     font-size:13px;
     margin: 20px 0 0;
 }
-
-main{
-}
 form{
     margin: 40px 0;
 }
@@ -202,17 +199,42 @@ td,th{
     width:560px;
     margin: 2em auto;
 }
-@media screen and (max-width:480px){
-    .caixa, .principal, .conteudo-beneficios,.mapa-conteudo,.video{
-        width:auto;
+@media screen and (max-width:880px){
+
+    .caixa, .principal, .conteudo-beneficios,.mapa-conteudo,.video{  
+        padding: 10px;
+        width:auto;    
     } 
+    header{
+        width: auto;
+    }
+    form{
+        padding:10px;
+    }
+    .input-padrao{
+        width: 80%;
+    }
     h1{
         text-align: center;
     }
+   
     nav{
-       position: static;
+       position:static;
+       text-align: center;
     }
+    
     .lista-beneficios,.imagem-Beneficios{
+        font-size: 16px;
         width: 100%;
+    }
+    .produtos{
+        text-align: center;
+        width: auto;
+        display: block;
+    }
+    .produtos li{
+        margin: 1px;
+        width: 90%;
+        text-align: center;
     }
 }
